@@ -14,7 +14,10 @@ A basic understanding of [TorchRec](https://github.com/pytorch/torchrec) will he
 # Running
 
 ## Install dependencies
-`pip install tqdm torchmetrics`
+```
+pip install tqdm torchmetrics torchrec
+pip install "git+https://github.com/mlperf/logging.git@4.0.0-rc3-rcp-prunning"
+```
 
 ## Torchx
 We recommend using [torchx](https://pytorch.org/torchx/main/quickstart.html) to run. Here we use the [DDP builtin](https://pytorch.org/torchx/main/components/distributed.html)
